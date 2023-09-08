@@ -3,54 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Energy Optimization App</title>
-    <style>
-        /* Add your CSS styles for the homepage here */
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f2f2f2;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-        }
-
-        h1 {
-            font-size: 36px;
-            color: #333;
-        }
-
-        p {
-            font-size: 18px;
-            color: #666;
-            margin-top: 20px;
-        }
-
-        .animation-container {
-            width: 200px;
-            height: 200px;
-        }
-
-        /* Add animation styles here */
-        @keyframes floating {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-20px); }
-        }
-
-        .animate-float {
-            animation: floating 2s ease-in-out infinite;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
+    <title>Energy Web App</title>
 </head>
 <body>
-    <h1>Welcome to the Energy Optimization App</h1>
-    <p>Optimize your energy consumption for a greener future.</p>
-    <div class="animation-container">
-        <!-- Add your animation element here -->
-        <img src="energy-icon.png" alt="Energy Icon" class="animate-float">
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">
+            <a href="index.html">Energy App</a>
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <header class="home">
+        <h1>Welcome to Energy App</h1>
+        <p>Your source for energy optimization</p>
+    </header>
+
+    <!-- Animation -->
+    <div class="animation">
+        <!-- Your animation content goes here -->
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
