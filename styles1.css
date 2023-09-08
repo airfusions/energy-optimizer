@@ -1,0 +1,51 @@
+header {
+  background-color: #212121;
+  color: #fff;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 0;
+}
+
+.intro {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+}
+
+.features {
+  margin-top: 40px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.benefits {
+  margin-top: 40px;
+}
+
+.call-to-action {
+  margin-top: 40px;
+  text-align: center;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000;
+}
