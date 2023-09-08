@@ -1,6 +1,6 @@
 # energy-otimizer
 
-# Energy Optimization App
+# Energy Optimization  web App
 
 ![App Demo](demo.gif)
 
