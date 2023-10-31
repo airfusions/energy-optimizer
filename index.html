@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Energy Web App</title>
+    <title>Energy Optimization App</title>
 </head>
 <body>
     <!-- Navigation Bar -->
@@ -13,23 +13,51 @@
             <a href="index.html">Energy App</a>
         </div>
         <ul>
-            <li><a href="#">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
+              <li><a href="chart.html">Graph</a></li>
+            <li><a href="login.html">Login</a></li>
+
         </ul>
     </nav>
 
     <!-- Home Section -->
     <header class="home">
-        <h1>Welcome to Energy App</h1>
-        <p>Your source for energy optimization</p>
+        <div class="container">
+            <h1>Welcome to Energy Optimization</h1>
+            <p>Your Source for Efficient Energy Management</p>
+            <a href="about.html" class="btn">Learn More</a>
+        </div>
     </header>
 
-    <!-- Animation -->
-    <div class="animation">
-        <!-- Your animation content goes here -->
-    </div>
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2>Key Features</h2>
+            <div class="feature">
+                <div class="icon">🔌</div>
+                <h3>Energy Monitoring</h3>
+                <p>Track and analyze your energy consumption in real-time.</p>
+            </div>
+            <div class="feature">
+                <div class="icon">💡</div>
+                <h3>Optimization Tips</h3>
+                <p>Receive personalized recommendations for energy savings.</p>
+            </div>
+            <div class="feature">
+                <div class="icon">📈</div>
+                <h3>Usage Reports</h3>
+                <p>Generate detailed reports on your energy usage history.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Energy Optimization App</p>
+        </div>
+    </footer>
 
     <script src="script.js"></script>
 </body>

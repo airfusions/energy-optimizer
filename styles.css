@@ -5,59 +5,122 @@
     box-sizing: border-box;
 }
 
-/* Style the navigation bar */
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navigation bar */
 nav {
     background-color: #333;
     color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-}
-
-nav .logo {
-    font-size: 24px;
-    font-weight: bold;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-}
-
-nav ul li {
-    margin-right: 20px;
+    padding: 10px 20px;
 }
 
 nav a {
     text-decoration: none;
     color: #fff;
-    transition: color 0.3s;
+    font-weight: bold;
 }
 
-nav a:hover {
-    color: #ff9900;
+ul {
+    list-style: none;
+    display: flex;
 }
 
-/* Style the home section */
+li {
+    margin-right: 20px;
+}
+
+/* Home Section */
 .home {
+    background: url('background.jpg') center/cover no-repeat;
     text-align: center;
-    padding: 100px;
-    background-color: #f1f1f1;
+    padding: 150px 0;
+    ;
 }
 
 .home h1 {
     font-size: 36px;
-    color: #333;
     margin-bottom: 20px;
 }
 
 .home p {
     font-size: 18px;
-    color: #666;
 }
 
-/* Style the animation section */
-.animation {
-    /* Add styles for your animation container here */
+.btn {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Features Section */
+.features {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.features h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.feature {
+    text-align: center;
+    margin: 20px;
+}
+
+.feature .icon {
+    font-size: 48px;
+    margin: 0 auto 15px;
+}
+
+.feature h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.feature p {
+    font-size: 16px;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Media queries for responsive design (adjust as needed) */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .home {
+        padding: 100px 0;
+    }
 }

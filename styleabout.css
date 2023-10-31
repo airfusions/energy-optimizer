@@ -1,0 +1,86 @@
+/* style1.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 18px;
+}
+
+.features, .benefits {
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.call-to-action {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.call-to-action a {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.call-to-action a:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
